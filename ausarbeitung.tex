@@ -245,9 +245,9 @@ V1.0 besteht aus Werten von 0 bis 1.000 Punkten, V2.0 ist weiter aufgeschlüssel
 Zusätzlich zu den Scorewerten gibt es auch noch die Rankingstufe von A-P, wobei A die beste ist, eine Erfüllungswahrscheinlichkeit, welche ähnlich dem Basisscore in Prozent angegeben ist 
 und eine Risikobewertung (siehe Abb. \ref{fig:bsp-branchenscore}).
 
-\begin{figure}
+\begin{figure}[h!]
 	\centering
-		\includegraphics{branchenscore}
+		\includegraphics[width=\linewidth]{branchenscore}
 	\caption{Beispiel für einen Branchenscore}
 	\label{fig:bsp-branchenscore}
 \end{figure}
@@ -270,19 +270,46 @@ ein Bankkonto oder einen Kredit ohne Unterzeichnung der Schufa-Klausel (siehe Ab
 Die Schufa begründet ihre Stellung dadurch, dass die Bonitätsprüfung nicht nur dem Kreditgeber diene, sondern indirekt durch geringere Risikoprämien auch den Kreditnehmern.
 
 Außerdem schütze die Schufa die Verbraucher vor einer Überschuldung, da gefährdeten Personen erst gar kein weiterer Kredit genehmigt wird. Wie bereits erwähnt hat hier aber der Kreditgeber die 
-Entscheidungsgewalt, nicht die Schufa - sie berät nur.
+Entscheidungsgewalt, nicht die Schufa - sie berät nur.\\
+
+Laut einem Bericht des NDR aus dem Jahr 2014 zweifeln die Aufsichtsbehörden mancher Bundesländer an der rechtlichen Zulässigkeit der Schufa. Es gibt hierfür immerhin keine rechtliche Grundlage, auf die sich
+die Privatdankenbank stützen kann.
 
 \subsection{Scoring}
 
 Viele beklagen sich darüber, dass die Schufa ihre Scoringmethoden nicht offenlegt. Niemand weiß über die genauen Verfahren bescheid.
-\begin{itemize}
-\item Nicht offengelegt
-\item Bis 2001: Eigenauskunft als Negativeintrag (Einstellung nach massiven Protesten)
-\end{itemize}
+Der Bundesgerichtshof erklärt die Geheimhaltung des Schufa-Scoring allerdings für in Ordnung.\\
+
+Bis 2001 war das Einholen einer Eigenauskunft nach dem BDSG als Negativeintrag in der Schufa-Akte hinterlegt, was allerdings nach massiven Protesten eingestellt wurde.\\
+
+Laut einem weiteren NDR-Bericht von 2014 ist in der Schufa-Bewertung wohl das Umzugsverhalten und die Bankkontonutzung sehr wichtig. Wenn eine Person häufig umzieht und/oder viele Bankkonten besitzt,
+wirke sich das negativ auf die Kreditwürdigkeit aus. Laut NDR werde dies sogar stärker bewertet als richtige Negativeintragungen wie eine Privatinsolvenz, die erst an fünfter Stelle kommen soll.
 
 
+\subsection{Fehlerhafte Daten}
+Die \textit{Stiftung Warentest} hat 2010 in einer Stichprobe herausgefunden, dass etwa 1\% der Schufa-Daten schlicht falsch, 8\% veraltet und 28\% komplett fehlen.
+Die Schufa wehrte die Vorwürfe ab, da sie selbst für die Richtig- und Vollständigkeit der Datensätze nichts kann. Die Vertragspartner seien nach dem Gegenseitigkeitsprinzip dazu verpflichtet,
+Aktualisierungen an die Schufa zu melden.
+
+\subsection{Internetrecherchen}
+2012 startete die Schufa zusammen mit dem Hasso-Plattner-Institut einen Versuch, ähnlich wie auch heute noch Personaler bei Bewerbungsgesprächen, im Internet nach Informationen über die betreffende
+Person zu suchen. Als diese Zusammenarbeit öffentlcih wurde regte sich massiver Widerstand in der Bevölkerung, woraufhin der Vertrag seitens des Instituts gekündigt wurde.
+
+\newpage
 
 \section{Quellenangaben}
-%\href{url}{https://books.google.de/books?id=m1kpBAAAQBAJ&lpg=PA33&ots=iIp83FquRf&dq=bewag%20haushaltsger%C3%A4te&hl=de&pg=PA33#v=onepage&q=bewag%20haushaltsger%C3%A4te&f=false}
-%https://www.schufa.de/de/unternehmenskunden/leistungen/fraudprevention-compliance/schufa-identitaetscheck-jugendschutz/
+\begin{itemize}
+\item http://de.wikipedia.org/wiki/Schufa
+\item http://www.t-online.de/wirtschaft/id\_67634822/schufa-siegt-vor-dem-bundesgerichtshof-scoring-formel-bleibt-geheim.html
+\item https://www.test.de/Auskunfteien-Fehlerhafte-Daten-gespeichert-4047751-0/
+\item https://books.google.de/books?id=m1kpBAAAQBAJ\&lpg=PA33\&ots=iIp83FquRf\&dq=bewag\%20haushaltsger\%C3\%A4te\&hl=de\&pg=PA33\#v=onepage\&q=bewag\%20haushaltsger\%C3\%A4te\&f=false
+\item https://www.schufa.de/de/unternehmenskunden/leistungen/fraudprevention-compliance/schufa-identitaetscheck-jugendschutz/
+\item http://www.ndr.de/der\_ndr/presse/mitteilungen/Neue-bundesweite-Betrugsdatei-der-SchufaDatenschuetzer-zweifeln-an-Zulaessigkeit-,pressemeldungndr14700.html
+\item http://www.t-online.de/wirtschaft/id\_68926952/ndr-deckt-geheime-schufa-liste-auf-so-entsteht-der-schufa-score.html
+\end{itemize}
+
+\begin{small}
+\textit{Dieses Dokument liegt Ihnen in der Version 1.0.0 vom 07.07.2016 vor. Weitere Versionen finden Sie unter \href{url}{https://github.com/yannik-b/proseminar-schufa/releases}.}
+\end{small}
+
 \end{document}
